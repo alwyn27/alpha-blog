@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>TestApp</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <style type="text/css">
+
+      h1 {
+        text-align: center;
+
+      }
+
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+      body {
+        /* Margin bottom by footer height */
+        margin-bottom: 60px;
+      }
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        background-color: #f5f5f5;
+      }
+      
+      .jumbotron {
+ 
+        background-image: url(/assets/diarybg.jpg);
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Webpage</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <%= link_to 'Home', root_path, :class => "nav-link" %>
+          </li>
+          <li class="nav-item">
+            
+            <%= link_to 'About', about_path, :class => "nav-link" %>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+     
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="display-3">About Us!</h1>
+        <p class="lead">Hey, diddle diddle</p>
+        <hr class="my-4">
+        <p>The cat and the fiddle, The cow jumped over the moon.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>  
+      </div>
+    </div>    
+
+
+
+    <div class="container">
+      <h1>About Us</h1>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra quis elit id varius. Vestibulum ut arcu dignissim, tincidunt mauris id, imperdiet mauris. Donec a aliquet leo. Sed sed ornare neque. Duis eleifend magna sed aliquet ornare. Nam sed mi at diam lobortis pellentesque vitae quis neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet tincidunt nisi, nec auctor tellus. Aenean quam lacus, molestie et scelerisque et, porttitor et nulla. Fusce laoreet cursus metus at ornare. Praesent scelerisque magna orci. Maecenas volutpat semper erat. Phasellus id justo nec libero convallis varius ut tempus ipsum. Vivamus sollicitudin a ligula at vehicula. Mauris ut massa non nulla ullamcorper iaculis. Donec rhoncus blandit nulla consequat malesuada.
+          </p>
+        </div>
+
+        <div class="col-sm-6">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras viverra quis elit id varius. Vestibulum ut arcu dignissim, tincidunt mauris id, imperdiet mauris. Donec a aliquet leo. Sed sed ornare neque. Duis eleifend magna sed aliquet ornare. Nam sed mi at diam lobortis pellentesque vitae quis neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam sit amet tincidunt nisi, nec auctor tellus. Aenean quam lacus, molestie et scelerisque et, porttitor et nulla. Fusce laoreet cursus metus at ornare. Praesent scelerisque magna orci. Maecenas volutpat semper erat. Phasellus id justo nec libero convallis varius ut tempus ipsum. Vivamus sollicitudin a ligula at vehicula. Mauris ut massa non nulla ullamcorper iaculis. Donec rhoncus blandit nulla consequat malesuada.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <p class="text-muted">Webpage 2017&#169</p>
+      </div>
+    </footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+</html>
