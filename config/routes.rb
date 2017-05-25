@@ -10,8 +10,8 @@ Rails.application.routes.draw do
   
   #get 'pages/home', to: 'pages#home'
   
-  root 'pages/home'
-  
+  root 'pages#home'
+
   get 'about', to: 'pages#about'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
