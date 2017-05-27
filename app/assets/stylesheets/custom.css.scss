@@ -1,2 +1,89 @@
+$navbar-default-bg: #181818;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  margin-top:-20px;
+  background-image: url("diarybg.jpg");
+  background-size: cover;
+  height: 450px;
+}
+
+.jumbotron h1 {
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.5em;
+  background-color: orange;
+  border-color: orange;
+}
+
+.btn-xlarge:hover {
+  background-color: #ce8404;
+  border-color: orange;
+}
+
+.btn-xlarge:active {
+  background-color: #ce8404 !important;
+  border-color: orange !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: #f5f5f5;
+}
+
+.footer:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+}
+
+footer ul li {
+  float: left;
+  list-style: none;
+  margin-left: 15px;
+}
